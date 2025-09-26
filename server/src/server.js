@@ -8,8 +8,8 @@ dotenv.config();
 const app = express();
 
 const __dirname = path.resolve();
-console.log(__dirname)
-
+// console.log(__dirname)
+app.use(express.json()); //middleware to parse JSON bodies
 
 app.use('/api/auth', authRouter);
 app.use('/api/messages', messageRouter);
@@ -24,7 +24,9 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.join(__dirname, "../client", "dist", "index.html")); //👉 If the request is NOT an API route (like /api/users), just send back index.html.
   } );
 }
-app.listen(process.env.PORT, () => {
-  console.log(`Server running on port ${process.env.PORT}`);
-  connectDB();
-});
+connectDB().then(() => {
+  app.listen(process.env.PORT, () => {
+    console.log(`Server running on port ${process.env.PORT}`);
+  });
+  
+})

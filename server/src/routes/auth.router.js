@@ -1,15 +1,13 @@
 import express from 'express';
+import { signup } from '../controllers/auth.controller.js';
+import validate from '../middleware/validate.js';
+import signupSchema from '../validation/signup.schema.js';
 
 const router = express.Router();
-
-router.get('/login', (req, res) => {
-  res.send('Login Page');
-});
-router.get('/signup', (req, res) => {
-  res.send('signup Page');
-});
-router.get('/logout', (req, res) => {
-  res.send('Logout Page');
-});
+router.post('/signup',validate(signupSchema), signup)
+// router.get('/login', );
+// router.get('/logout', (req, res) => {
+//   res.send('Logout Page');
+// });
 
 export default router;

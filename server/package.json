@@ -24,7 +24,8 @@
     "mern-chat": "file:..",
     "mongoose": "^8.10.1",
     "resend": "^6.0.2",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
