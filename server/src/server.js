@@ -7,7 +7,7 @@ import messageRouter from "./routes/message.route.js";
 import path from "path";
 import { connectDB } from "./lib/db.js";
 import { errorHandler } from "./middleware/errorHandler.js";
-
+import mongoSanitize from 'express-mongo-sanitize'
 dotenv.config();
 const app = express();
 
@@ -17,6 +17,8 @@ app.use(cors());
 
 //middleware to parse JSON request bodies
 app.use(express.json());
+// remove any keys that start with $ or contain . from user input
+app.use(mongoSanitize())
 
 // Routes
 app.use("/api/auth", authRouter);
