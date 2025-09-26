@@ -8,8 +8,8 @@ dotenv.config();
 const app = express();
 
 const __dirname = path.resolve();
-console.log(__dirname)
-
+// console.log(__dirname)
+app.use(express.json()); //middleware to parse JSON bodies
 
 app.use('/api/auth', authRouter);
 app.use('/api/messages', messageRouter);
