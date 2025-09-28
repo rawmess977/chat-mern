@@ -1,7 +1,8 @@
 import bcrypt from 'bcryptjs'
 import User from '../models/User.js';
 import { generateToken } from '../lib/utils.js';
-
+import { sendWelcomeMail } from '../emails/emailHandlers.js';
+import { ENV } from '../lib/env.js';
 
 export const signup = async (req, res) => {
   try {
@@ -40,6 +41,13 @@ export const signup = async (req, res) => {
       //  password: newUser.password
       
     });
+
+    try {
+      await sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL)
+      console.log("SENT EMAIL", savedUser.email)
+    }catch(error){
+      console.error("Failed to send welcome email:", error)
+    }
 
   } catch (error) {
     if (error.name === "ZodError") {

@@ -8,6 +8,7 @@ import path from "path";
 import { connectDB } from "./lib/db.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import mongoSanitize from 'express-mongo-sanitize'
+import { ENV } from "./lib/env.js";
 dotenv.config();
 const app = express();
 
@@ -34,7 +35,7 @@ app.all("/api/*", (_, res) => {
 
 
 // Production: serve frontend build + SPA fallback
-if (process.env.NODE_ENV === "production") {
+if (ENV.NODE_ENV === "production") {
   
   const __dirname = path.dirname(new URL(import.meta.url).pathname);
   console.log(__dirname);
@@ -48,11 +49,11 @@ if (process.env.NODE_ENV === "production") {
 //  Global error handler must come after routes
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = ENV.PORT || 5000;
 connectDB()
   .then(() => {
     const server = app.listen(PORT, () => {
-      console.log(`✅ Server running on port ${process.env.PORT}`);
+      console.log(`✅ Server running on port ${ENV.PORT}`);
     });
 
     // handle unhandled rejection safely eg db disconnect

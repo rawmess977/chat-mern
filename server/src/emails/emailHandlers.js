@@ -1,0 +1,17 @@
+import { resendClient, sender } from "../lib/resend.js";
+import { createWelcomeEmailTemplate } from "./emailTemplates.js";
+
+export const sendWelcomeMail = async(email, name, clientURL)=>{
+    const { data, error } = await resendClient.emails.send({
+    from: `${sender.name } <${sender.email}>`,
+    to: email,
+    subject: `Welcome to chat-mern ${name}`,
+    html: `${createWelcomeEmailTemplate(sender.name, clientURL)}`,
+  });
+
+   if (error) {
+    return console.error({ error });
+  }
+
+  console.log({ data });
+}
