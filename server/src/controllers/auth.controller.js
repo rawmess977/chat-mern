@@ -42,12 +42,15 @@ export const signup = async (req, res) => {
       
     });
 
-    try {
-      await sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL)
-      console.log("SENT EMAIL", savedUser.email)
-    }catch(error){
-      console.error("Failed to send welcome email:", error)
-    }
+
+    // try {
+    //   await sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL)
+    //   console.log("SENT EMAIL", savedUser.email)
+    // }catch(error){
+    //   console.error("Failed to send welcome email:", error)
+    // }
+
+    sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL).catch((error)=>{console.error("Failed to send welcome email:", error)})
 
   } catch (error) {
     if (error.name === "ZodError") {
