@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const signupSchema = z.object({
+export const signupSchema = z.object({
   fullName: z
     .string()
     .trim()
@@ -21,4 +21,18 @@ const signupSchema = z.object({
     .regex(/\d/, "Password must contain at least one number"),
 });
 
-export default signupSchema;
+// Login Schema
+export const loginSchema = z.object({
+  email: z
+    .string()
+    .trim()
+    .email("Invalid email format"),
+
+  password: z
+    .string()
+    .min(6, "Password must be at least 6 characters")
+    .max(100, "Password must be at most 100 characters")
+    .regex(/[A-Za-z]/, "Password must contain at least one letter")
+    .regex(/\d/, "Password must contain at least one number"),
+});
+
