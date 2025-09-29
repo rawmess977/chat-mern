@@ -1,62 +1,84 @@
-import bcrypt from 'bcryptjs'
-import User from '../models/User.js';
-import { generateToken } from '../lib/utils.js';
-import { sendWelcomeMail } from '../emails/emailHandlers.js';
-import { ENV } from '../lib/env.js';
+import bcrypt from "bcryptjs";
+import User from "../models/User.js";
+import { generateToken } from "../lib/utils.js";
+import { sendWelcomeMail } from "../emails/emailHandlers.js";
+import { ENV } from "../lib/env.js";
 
 export const signup = async (req, res) => {
   try {
-    const { fullName, email, password } = req.body; // undefined if express.json() middleware is not used
-    
-    // if (!fullName || !email || !password) {
-    //   return res.status(400).json({ message: "All fields are required" });
-    // }
-    
-    const existingUser = await User.findOne({ email });
+    const { fullName, email, password } = req.body;
+
+    const existingUser = await User.findOne({ email: email.toLowerCase() });
     if (existingUser) {
       return res.status(409).json({ error: "Email already in use" });
     }
 
-     // 🔐 Hash password with bcrypt 
-    //  const salt = await bcrypt.genSalt(10)
-    const hashedPassword = await bcrypt.hash(password, 10)
+    const hashedPassword = await bcrypt.hash(password, 10);
 
-
-    //saving user in mongodb
     const newUser = new User({
-      fullName, 
-      email, 
-      password:hashedPassword
-    })
-
-
-    const savedUser  = await newUser.save();
-    generateToken(savedUser._id, res);
-    
-    res.status(201).json({
-       _id: savedUser._id, 
-       fullName: savedUser.fullName,
-       email: savedUser.email,
-       profilePic: savedUser.profilePic || null,
-      //  password: newUser.password
-      
+      fullName,
+      email: email.toLowerCase(),
+      password: hashedPassword,
     });
 
+    const savedUser = await newUser.save();
 
-    // try {
-    //   await sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL)
-    //   console.log("SENT EMAIL", savedUser.email)
-    // }catch(error){
-    //   console.error("Failed to send welcome email:", error)
-    // }
+    generateToken(savedUser._id, res);
 
-    sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL).catch((error)=>{console.error("Failed to send welcome email:", error)})
+    res.status(201).json({
+      user: {
+        _id: savedUser._id,
+        fullName: savedUser.fullName,
+        email: savedUser.email,
+        profilePic: savedUser.profilePic || null,
+      },
+    });
 
+    sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL).catch(
+      (error) => console.error("Failed to send welcome email:", error)
+    );
   } catch (error) {
-    if (error.name === "ZodError") {
-      return res.status(400).json({ error: error.errors[0].message });
-    }
     console.error("Signup Error:", error);
     res.status(500).json({ error: "Internal server error" });
   }
+};
+
+export const login = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const user = await User.findOne({ email: email.toLowerCase() });
+    if (!user) {
+      return res.status(400).json({ error: "Invalid credentials" });
+    }
+
+    const isPasswordMatched = await bcrypt.compare(password, user.password);
+    if (!isPasswordMatched) {
+      return res.status(403).json({ error: "Invalid credentials" });
+    }
+
+    generateToken(user._id, res);
+
+    res.status(200).json({
+      user: {
+        _id: user._id,
+        fullName: user.fullName,
+        email: user.email,
+        profilePic: user.profilePic || null,
+      },
+    });
+  } catch (error) {
+    console.error("Login Error:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+};
+
+export const logout = async (_, res) => {
+  res.cookie("jwt", "", {
+    // httpOnly: true,
+    // secure: process.env.NODE_ENV === "production",
+    // sameSite: "strict",
+    maxAge: 0,
+  });
+  res.status(200).json({ message: "Logged out successfully" });
 };
