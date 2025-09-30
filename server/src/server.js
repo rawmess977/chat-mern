@@ -7,9 +7,11 @@ import path, { dirname } from 'path';
 import { connectDB } from './lib/db.js';
 import { fileURLToPath } from 'url';
 import { errorHandler } from './middleware/errorHandler.js';
+import { ENV } from './lib/env.js';
 
 dotenv.config();
 const app = express();
+const PORT = ENV.PORT;
 
 // ES module dirname setup
 const __filename = fileURLToPath(import.meta.url);
@@ -33,11 +35,12 @@ app.all('/api/*', (_, res) => {
 });
 
 // Serve frontend build in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/dist')));
+if (ENV.NODE_ENV === 'production') {
+  // Serve the frontend from the correct build output (../client/dist)
+  app.use(express.static(path.join(__dirname, '../../client/dist')));
 
   app.get('*', (_, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+    res.sendFile(path.join(__dirname, '../../client/dist/index.html'));
   });
 }
 
@@ -47,8 +50,8 @@ app.use(errorHandler);
 // Connect to DB and start server
 connectDB()
   .then(() => {
-    const server = app.listen(process.env.PORT, () => {
-      console.log(`✅ Server running on port ${process.env.PORT}`);
+    const server = app.listen(PORT, () => {
+      console.log(`✅ Server running on port ${PORT}`);
     });
 
     // Gracefully handle unhandled promise rejections

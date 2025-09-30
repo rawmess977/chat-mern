@@ -1,4 +1,5 @@
 import { AppError } from "../utils/AppError.js";
+import { ENV } from './../lib/env.js';
 
 export const errorHandler = (err, req, res, next) => {
   if (!(err instanceof AppError)) {
@@ -7,7 +8,7 @@ export const errorHandler = (err, req, res, next) => {
   }
 
   const statusCode = err.statusCode;
-  const environment = process.env.NODE_ENV || "development";
+  const environment = ENV.NODE_ENV || "development";
 
   const response = {
     success: false,
