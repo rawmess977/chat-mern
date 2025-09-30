@@ -7,8 +7,11 @@ import messageRouter from "./routes/message.route.js";
 import path from "path";
 import { connectDB } from "./lib/db.js";
 import { errorHandler } from "./middleware/errorHandler.js";
-import mongoSanitize from 'express-mongo-sanitize'
+import mongoSanitize from "express-mongo-sanitize";
 import { ENV } from "./lib/env.js";
+
+const __dirname = path.resolve();
+
 dotenv.config();
 const app = express();
 
@@ -19,7 +22,7 @@ app.use(cors());
 //middleware to parse JSON request bodies
 app.use(express.json());
 // remove any keys that start with $ or contain . from user input
-app.use(mongoSanitize())
+app.use(mongoSanitize());
 
 // Routes
 app.use("/api/auth", authRouter);
@@ -34,15 +37,11 @@ app.all("/api/*", (_, res) => {
 });
 
 
-// Production: serve frontend build + SPA fallback
 if (ENV.NODE_ENV === "production") {
-  
-  const __dirname = path.dirname(new URL(import.meta.url).pathname);
-  console.log(__dirname);
-  app.use(express.static(path.join(__dirname, "../client/dist"))); //“Hey, serve everything in the client/dist folder as static files (JS, CSS, images).” This is where your built React app lives after npm run build.Serves static files in production and handles SPA fallback
+  app.use(express.static(path.join(__dirname, "../client/dist")));
 
   app.get("*", (_, res) => {
-    res.sendFile(path.join(__dirname, "../client", "dist", "index.html")); //👉 If the request is NOT an API route (like /api/users), just send back index.html.
+    res.sendFile(path.join(__dirname, "../client", "dist", "index.html"));
   });
 }
 
@@ -61,11 +60,11 @@ connectDB()
       console.error("UNHANDLED REJECTION 💥 Shutting down...", err);
       server.close(() => process.exit(1));
     });
-    
-    process.on("SIGTERM", ()=>{
+
+    process.on("SIGTERM", () => {
       console.info("SIGTERM received. Shutting down gracefully.");
-      server.close(()=>process.exit(0));
-    })
+      server.close(() => process.exit(0));
+    });
   })
   .catch((err) => {
     console.error("DB connection failed:", err);
