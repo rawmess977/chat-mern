@@ -1,0 +1,11 @@
+[2025-09-30 15:23:51] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 15:23:51] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:09:56] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:09:56] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:10:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:10:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET / [32m200[0m 4.985 ms - 453[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/index-D8b4DHJx.css [32m200[0m 2.749 ms - 1385[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/index-BfkMANgE.js [32m200[0m 3.760 ms - 188056[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /vite.svg [32m200[0m 3.487 ms - 1497[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/react-CHdo91hT.svg [32m200[0m 4.613 ms - 4126[0m
