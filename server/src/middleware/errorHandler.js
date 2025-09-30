@@ -1,19 +1,24 @@
-import { ENV } from "../lib/env.js";
+import { AppError } from "../utils/AppError.js";
 
 export const errorHandler = (err, req, res, next) => {
-  console.error(err);
-
-  // If headers are already sent, delegate to Express’ default handler
-  if (res.headersSent) {
-    return next(err);
+  if (!(err instanceof AppError)) {
+    console.error("❌ UNEXPECTED ERROR:", err);
+    err = new AppError(err.message || "Something went wrong", err.statusCode || 500);
   }
 
-  res.status(err.status || 500).json({
+  const statusCode = err.statusCode;
+  const environment = process.env.NODE_ENV || "development";
+
+  const response = {
     success: false,
-    message:
-      ENV.NODE_ENV === "production"
-        ? "Something went wrong, please try again later."
-        : err.message, // don’t leak details in prod
-    stack: ENV.NODE_ENV === "production" ? undefined : err.stack,
-  });
+    status: err.status,
+    message: err.message,
+  };
+
+  if (environment === "development") {
+    response.stack = err.stack;
+    response.error = err;
+  }
+
+  res.status(statusCode).json(response);
 };

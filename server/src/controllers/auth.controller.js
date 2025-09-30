@@ -3,86 +3,79 @@ import User from "../models/User.js";
 import { generateToken } from "../lib/utils.js";
 import { sendWelcomeMail } from "../emails/emailHandlers.js";
 import { ENV } from "../lib/env.js";
+import { AppError } from "../utils/AppError.js";
 
+// SIGNUP
 export const signup = async (req, res) => {
-  try {
-    const { fullName, email, password } = req.body;
+  const { fullName, email, password } = req.body;
 
-    const existingUser = await User.findOne({ email: email.toLowerCase() });
-    if (existingUser) {
-      return res.status(409).json({ error: "Email already in use" });
-    }
+  const existingUser = await User.findOne({ email: email.toLowerCase() });
+  if (existingUser) throw new AppError("Email already in use", 409);
 
-    const hashedPassword = await bcrypt.hash(password, 10);
+  const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser = new User({
-      fullName,
-      email: email.toLowerCase(),
-      password: hashedPassword,
-    });
+  const newUser = await User.create({
+    fullName,
+    email: email.toLowerCase(),
+    password: hashedPassword,
+  });
 
-    const savedUser = await newUser.save();
+  generateToken(newUser._id, res);
 
-    generateToken(savedUser._id, res);
+  res.status(201).json({
+    success: true,
+    status: "success",
+    data: {
+      _id: newUser._id,
+      fullName: newUser.fullName,
+      email: newUser.email,
+      profilePic: newUser.profilePic || null,
+    },
+  });
 
-    res.status(201).json({
-      user: {
-        _id: savedUser._id,
-        fullName: savedUser.fullName,
-        email: savedUser.email,
-        profilePic: savedUser.profilePic || null,
-      },
-    });
-
-    sendWelcomeMail(savedUser.email, savedUser.fullName, ENV.CLIENT_URL).catch(
-      (error) => console.error("Failed to send welcome email:", error)
-    );
-  } catch (error) {
-    console.error("Signup Error:", error);
-    res.status(500).json({ error: "Internal server error" });
-  }
+  sendWelcomeMail(newUser.email, newUser.fullName, ENV.CLIENT_URL).catch(
+    (err) => console.error("❌ Failed to send welcome email:", err)
+  );
 };
 
+// LOGIN
 export const login = async (req, res) => {
-  try {
-    const { email, password } = req.body;
+  const { email, password } = req.body;
 
-    if(!email || !password){
-      return res.status(400).json({message: "Email and Password are required"})
-    }
+  if (!email || !password) throw new AppError("Email and Password are required", 400);
 
-    const user = await User.findOne({ email: email.toLowerCase() });
-    if (!user) {
-      return res.status(400).json({ error: "Invalid credentials" });
-    }
+  const user = await User.findOne({ email: email.toLowerCase() });
+  if (!user) throw new AppError("Invalid credentials", 401);
 
-    const isPasswordMatched = await bcrypt.compare(password, user.password);
-    if (!isPasswordMatched) {
-      return res.status(403).json({ error: "Invalid credentials" });
-    }
+  const isMatch = await bcrypt.compare(password, user.password);
+  if (!isMatch) throw new AppError("Invalid credentials", 401);
 
-    generateToken(user._id, res);
+  generateToken(user._id, res);
 
-    res.status(200).json({
-      user: {
-        _id: user._id,
-        fullName: user.fullName,
-        email: user.email,
-        profilePic: user.profilePic || null,
-      },
-    });
-  } catch (error) {
-    console.error("Login Error:", error);
-    res.status(500).json({ error: "Internal server error" });
-  }
+  res.status(200).json({
+    success: true,
+    status: "success",
+    data: {
+      _id: user._id,
+      fullName: user.fullName,
+      email: user.email,
+      profilePic: user.profilePic || null,
+    },
+  });
 };
 
+// LOGOUT
 export const logout = async (_, res) => {
   res.cookie("jwt", "", {
-    // httpOnly: true,
-    // secure: process.env.NODE_ENV === "production",
-    // sameSite: "strict",
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "strict",
     maxAge: 0,
   });
-  res.status(200).json({ message: "Logged out successfully" });
+
+  res.status(200).json({
+    success: true,
+    status: "success",
+    message: "Logged out successfully",
+  });
 };
