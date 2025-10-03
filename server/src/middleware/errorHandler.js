@@ -1,10 +1,17 @@
 import { AppError } from "../utils/AppError.js";
-import { ENV } from './../lib/env.js';
+import { ENV } from "../lib/env.js";
+import logger from "../lib/logger.js";
 
 export const errorHandler = (err, req, res, next) => {
   if (!(err instanceof AppError)) {
-    console.error("❌ UNEXPECTED ERROR:", err);
+    logger.error(`❌ UNEXPECTED ERROR: ${err.stack || err}`);
     err = new AppError(err.message || "Something went wrong", err.statusCode || 500);
+  } else {
+    if (err.statusCode >= 500) {
+      logger.error(`❌ SERVER ERROR: ${err.message}`);
+    } else {
+      logger.warn(`⚠️ CLIENT ERROR: ${err.message}`);
+    }
   }
 
   const statusCode = err.statusCode;
@@ -23,3 +30,4 @@ export const errorHandler = (err, req, res, next) => {
 
   res.status(statusCode).json(response);
 };
+

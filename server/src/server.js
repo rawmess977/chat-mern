@@ -1,15 +1,17 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
+import path, { dirname } from 'path';
+import { fileURLToPath } from 'url';
+import morgan from 'morgan';
+
+import { connectDB } from './lib/db.js';
+import { ENV } from './lib/env.js';
+import logger from './lib/logger.js';
+import { errorHandler } from './middleware/errorHandler.js';
+
 import authRouter from './routes/auth.route.js';
 import messageRouter from './routes/message.route.js';
-import path, { dirname } from 'path';
-import { connectDB } from './lib/db.js';
-import { fileURLToPath } from 'url';
-import { errorHandler } from './middleware/errorHandler.js';
-import { ENV } from './lib/env.js';
 
-dotenv.config();
 const app = express();
 const PORT = ENV.PORT;
 
@@ -19,14 +21,20 @@ const __dirname = dirname(__filename);
 
 // Middleware
 app.use(express.json());
-app.use(cookieParser()); // Needed to read JWT cookies
+app.use(cookieParser());
+
+// HTTP request logging
+app.use(morgan('dev', {
+  stream: { write: message => logger.info(message.trim()) },
+}));
 
 // Routes
 app.use('/api/auth', authRouter);
 app.use('/api/messages', messageRouter);
 
-// Handle 404 for unknown API routes
+// Handle 404
 app.all('/api/*', (_, res) => {
+  logger.warn('404 - API route not found');
   res.status(404).json({
     success: false,
     status: 'fail',
@@ -34,39 +42,35 @@ app.all('/api/*', (_, res) => {
   });
 });
 
-// Serve frontend build in production
+// Serve frontend in production
 if (ENV.NODE_ENV === 'production') {
-  // Serve the frontend from the correct build output (../client/dist)
   app.use(express.static(path.join(__dirname, '../../client/dist')));
-
   app.get('*', (_, res) => {
     res.sendFile(path.join(__dirname, '../../client/dist/index.html'));
   });
 }
 
-// Global error handler (must come last)
+// Global error handler
 app.use(errorHandler);
 
-// Connect to DB and start server
+// Connect DB and start server
 connectDB()
   .then(() => {
     const server = app.listen(PORT, () => {
-      console.log(`✅ Server running on port ${PORT}`);
+      logger.info(`✅ Server running on port ${PORT}`);
     });
 
-    // Gracefully handle unhandled promise rejections
     process.on('unhandledRejection', (err) => {
-      console.error('UNHANDLED REJECTION 💥 Shutting down...', err);
+      logger.error(`UNHANDLED REJECTION 💥 Shutting down... ${err}`);
       server.close(() => process.exit(1));
     });
   })
-  .catch((err) => {
-    console.error('DB connection failed:', err);
+  .catch(err => {
+    logger.error(`DB connection failed: ${err}`);
     process.exit(1);
   });
 
-// Handle uncaught exceptions (sync errors)
 process.on('uncaughtException', (err) => {
-  console.error('UNCAUGHT EXCEPTION 💥 Shutting down...', err);
+  logger.error(`UNCAUGHT EXCEPTION 💥 Shutting down... ${err}`);
   process.exit(1);
 });

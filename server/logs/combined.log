@@ -1,0 +1,226 @@
+[2025-09-30 15:23:51] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 15:23:51] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:09:56] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:09:56] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:10:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:10:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET / [32m200[0m 4.985 ms - 453[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/index-D8b4DHJx.css [32m200[0m 2.749 ms - 1385[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/index-BfkMANgE.js [32m200[0m 3.760 ms - 188056[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /vite.svg [32m200[0m 3.487 ms - 1497[0m
+[2025-09-30 16:10:14] [32minfo[39m: [0mGET /assets/react-CHdo91hT.svg [32m200[0m 4.613 ms - 4126[0m
+[2025-09-30 16:11:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:11:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:11:43] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 330.253 ms - 154[0m
+[2025-09-30 16:12:14] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.853 ms - 71[0m
+[2025-09-30 16:51:43] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:51:43] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:52:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:52:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:52:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:52:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:52:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:52:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:53:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:53:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:55:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:55:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:57:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:57:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:57:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:57:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:57:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:57:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:57:36] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:57:36] [32minfo[39m: ✅ Server running on port 3000
+[2025-09-30 16:58:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-09-30 16:58:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:02:02] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:02:02] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:02:10] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 386.271 ms - 154[0m
+[2025-10-01 09:02:19] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 1.572 ms - 71[0m
+[2025-10-01 09:02:31] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:02:31] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 2.045 ms - 65[0m
+[2025-10-01 09:02:35] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:02:35] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.398 ms - 65[0m
+[2025-10-01 09:03:10] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 311.286 ms - 154[0m
+[2025-10-01 09:03:18] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:03:18] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.734 ms - 65[0m
+[2025-10-01 09:03:27] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:03:27] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.285 ms - 65[0m
+[2025-10-01 09:03:28] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:03:28] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.063 ms - 65[0m
+[2025-10-01 09:04:09] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:09] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.225 ms - 65[0m
+[2025-10-01 09:04:11] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:11] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.300 ms - 65[0m
+[2025-10-01 09:04:12] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:12] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.227 ms - 65[0m
+[2025-10-01 09:04:12] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:12] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.050 ms - 65[0m
+[2025-10-01 09:04:12] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:12] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.219 ms - 65[0m
+[2025-10-01 09:04:13] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:13] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.165 ms - 65[0m
+[2025-10-01 09:04:28] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 255.292 ms - 154[0m
+[2025-10-01 09:04:37] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:04:37] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.030 ms - 65[0m
+[2025-10-01 09:18:26] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:18:26] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.511 ms - 65[0m
+[2025-10-01 09:18:36] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:18:36] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.548 ms - 65[0m
+[2025-10-01 09:18:37] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:18:37] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.653 ms - 65[0m
+[2025-10-01 09:19:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:19:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:19:13] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:19:13] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 2.482 ms - 65[0m
+[2025-10-01 09:19:14] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:19:14] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.059 ms - 65[0m
+[2025-10-01 09:19:25] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 106.835 ms - 154[0m
+[2025-10-01 09:19:29] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 84.203 ms - 154[0m
+[2025-10-01 09:19:31] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 85.214 ms - 154[0m
+[2025-10-01 09:19:31] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 86.755 ms - 154[0m
+[2025-10-01 09:19:31] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 83.805 ms - 154[0m
+[2025-10-01 09:19:40] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:19:40] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.712 ms - 65[0m
+[2025-10-01 09:20:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:20:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:20:51] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:20:51] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 2.360 ms - 65[0m
+[2025-10-01 09:21:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:21:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:21:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:21:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:21:21] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.603 ms - 154[0m
+[2025-10-01 09:21:23] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.585 ms - 154[0m
+[2025-10-01 09:21:25] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 0.239 ms - 154[0m
+[2025-10-01 09:21:31] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:21:31] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:21:51] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:21:51] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 2.675 ms - 65[0m
+[2025-10-01 09:22:44] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:22:44] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.622 ms - 79[0m
+[2025-10-01 09:22:58] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 105.582 ms - 154[0m
+[2025-10-01 09:23:08] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:23:08] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.803 ms - 79[0m
+[2025-10-01 09:24:20] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 85.052 ms - 154[0m
+[2025-10-01 09:25:41] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:25:41] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:25:54] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:25:54] [32minfo[39m: [0mPOST /api/auth/check [33m401[0m 3.010 ms - 79[0m
+[2025-10-01 09:26:22] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:26:22] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:26:36] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:26:36] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:27:30] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:27:30] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 2.999 ms - 79[0m
+[2025-10-01 09:28:20] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:28:20] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.326 ms - 79[0m
+[2025-10-01 09:29:29] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:29:29] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:29:34] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:29:34] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:30:09] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:30:09] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 2.830 ms - 65[0m
+[2025-10-01 09:30:18] [33mwarn[39m: 404 - API route not found
+[2025-10-01 09:30:18] [32minfo[39m: [0mPOST /api/auth/check [33m404[0m 1.076 ms - 65[0m
+[2025-10-01 09:30:26] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 104.226 ms - 154[0m
+[2025-10-01 09:31:52] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:31:52] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.120 ms - 79[0m
+[2025-10-01 09:34:03] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:34:03] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.956 ms - 79[0m
+[2025-10-01 09:37:04] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 90.591 ms - 154[0m
+[2025-10-01 09:38:13] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 27.991 ms - 195[0m
+[2025-10-01 09:38:51] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.362 ms - 71[0m
+[2025-10-01 09:39:06] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.333 ms - 71[0m
+[2025-10-01 09:39:12] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:39:12] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.873 ms - 79[0m
+[2025-10-01 09:40:33] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:40:33] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.860 ms - 79[0m
+[2025-10-01 09:40:38] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 87.906 ms - 154[0m
+[2025-10-01 09:40:42] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 53.300 ms - 195[0m
+[2025-10-01 09:41:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:41:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:41:22] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:41:22] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:41:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:41:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:41:58] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 61.875 ms - 195[0m
+[2025-10-01 09:42:28] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 23.201 ms - 195[0m
+[2025-10-01 09:42:36] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.637 ms - 71[0m
+[2025-10-01 09:42:41] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:42:41] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.073 ms - 79[0m
+[2025-10-01 10:04:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:04:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:06:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:06:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 11:45:07] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:33] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:35] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:36] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:38] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:40] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:42] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:46] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:50] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:46:02] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:46:09] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 14:05:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:05:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:29] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:29] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:38] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:38] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:08:54] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:08:54] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:08:59] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:08:59] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:03] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:03] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:11] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:11] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:40] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:40] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:50] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:50] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 23:54:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 23:54:46] [32minfo[39m: ✅ Server running on port 3000
