@@ -144,3 +144,10 @@
 [2025-10-01 09:41:06] [32minfo[39m: ✅ Server running on port 3000
 [2025-10-01 09:41:22] [32minfo[39m: ✅ MongoDB connected successfully
 [2025-10-01 09:41:22] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:41:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 09:41:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 09:41:58] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 61.875 ms - 195[0m
+[2025-10-01 09:42:28] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 23.201 ms - 195[0m
+[2025-10-01 09:42:36] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.637 ms - 71[0m
+[2025-10-01 09:42:41] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-01 09:42:41] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.073 ms - 79[0m
