@@ -151,3 +151,76 @@
 [2025-10-01 09:42:36] [32minfo[39m: [0mPOST /api/auth/logout [32m200[0m 0.637 ms - 71[0m
 [2025-10-01 09:42:41] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
 [2025-10-01 09:42:41] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 1.073 ms - 79[0m
+[2025-10-01 10:04:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:04:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:05:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:05:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 10:06:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 10:06:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 11:45:07] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:33] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:35] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:36] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:38] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:40] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:42] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:46] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:45:50] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:46:02] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 11:46:09] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-01 14:05:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:05:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:29] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:29] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:38] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:38] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:06:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:06:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:07:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:07:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:08:54] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:08:54] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:08:59] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:08:59] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:03] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:03] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:11] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:11] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:09:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:09:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:40] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:40] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 14:10:50] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 14:10:50] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-01 23:54:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-01 23:54:46] [32minfo[39m: ✅ Server running on port 3000

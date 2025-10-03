@@ -4,8 +4,11 @@ import validate from "../middleware/validate.js";
 import { signupSchema, loginSchema } from "../validation/auth.Schema.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
 import { catchAsync } from "../utils/catchAsync.js";
+import { arcjetProtection } from "../middleware/arcjet.middleware.js";
 
 const router = express.Router();
+
+router.use(arcjetProtection)
 
 router.post("/signup", validate(signupSchema), catchAsync(signup));
 router.post("/login", validate(loginSchema), catchAsync(login));
