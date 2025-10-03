@@ -224,3 +224,515 @@
 [2025-10-01 14:10:50] [32minfo[39m: ✅ Server running on port 3000
 [2025-10-01 23:54:46] [32minfo[39m: ✅ MongoDB connected successfully
 [2025-10-01 23:54:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 11:55:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 11:55:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 11:58:23] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-10-03 11:58:23] [32minfo[39m: [0mGET /api/messages/contacts [33m401[0m 3.649 ms - 79[0m
+[2025-10-03 11:58:36] [32minfo[39m: [0mPOST /api/auth/login [33m403[0m 35.552 ms - 32[0m
+[2025-10-03 11:59:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 11:59:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 11:59:56] [33mwarn[39m: ⚠️ CLIENT ERROR: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "fullName"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "email"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "password"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]
+[2025-10-03 11:59:56] [32minfo[39m: [0mPOST /api/auth/signup [33m400[0m 5.023 ms - 625[0m
+[2025-10-03 12:00:52] [32minfo[39m: [0mPOST /api/auth/signup [32m201[0m 188.867 ms - 152[0m
+[2025-10-03 12:01:20] [33mwarn[39m: ⚠️ CLIENT ERROR: Invalid credentials
+[2025-10-03 12:01:20] [32minfo[39m: [0mPOST /api/auth/login [33m401[0m 27.812 ms - 65[0m
+[2025-10-03 12:01:29] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 95.547 ms - 152[0m
+[2025-10-03 12:01:53] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 29.052 ms - 193[0m
+[2025-10-03 12:02:07] [32minfo[39m: [0mGET /api/messages/contacts [32m200[0m 54.761 ms - 197[0m
+[2025-10-03 12:43:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:43:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:43:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:43:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:43:35] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:43:35] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:43:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:43:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:44:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:44:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:44:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:44:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:41] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:41] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:42] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:42] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:45:56] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:45:56] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:34] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:34] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:43] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:43] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:46:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:46:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:47:04] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:47:04] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:47:25] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:47:25] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:47:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:47:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:47:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:47:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:30] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:30] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:36] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:36] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:42] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:42] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:49:58] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:49:58] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:50:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:50:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:50:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:50:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:50:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:50:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 12:50:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 12:50:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:46:31] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:46:31] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:11] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:11] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:31] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:31] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:38] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:38] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:42] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:42] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:47:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:47:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:48:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:48:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:48:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:48:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:48:23] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:48:23] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:48:27] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:48:27] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:48:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:48:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:50:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:50:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:50:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:50:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:50:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:50:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:50:51] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:50:51] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:50:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:50:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:51:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:51:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:51:21] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:51:21] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:51:27] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:51:27] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:51:30] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:51:30] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:51:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:51:55] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:52:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:52:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:52:24] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:52:24] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:53:24] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:53:24] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:55:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:55:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:55:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:55:55] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:07] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:07] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:36] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:36] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:40] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:40] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:56:59] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:56:59] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:35] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:35] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:37] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:37] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:57:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:57:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:37] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:37] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:41] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:41] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:43] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:43] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:58:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:58:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:59:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:59:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:59:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:59:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:59:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:59:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:59:25] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:59:25] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 13:59:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 13:59:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:05] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:05] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:00:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:00:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:16] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:16] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:40] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:40] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:43] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:43] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:01:54] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:01:54] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:29] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:29] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:02:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:02:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:03:12] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 123.052 ms - 152[0m
+[2025-10-03 14:03:25] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 94.989 ms - 154[0m
+[2025-10-03 14:03:59] [32minfo[39m: [0mPOST /api/auth/login [32m200[0m 92.054 ms - 152[0m
+[2025-10-03 14:07:40] [32minfo[39m: [0mPOST /api/messages/send/:68db8c4dc9c9e35d56759e5b [0m-[0m - ms - -[0m
+[2025-10-03 14:08:07] [32minfo[39m: [0mPOST /api/messages/send/:68db8c4dc9c9e35d56759e5b [0m-[0m - ms - -[0m
+[2025-10-03 14:08:30] [32minfo[39m: [0mPOST /api/messages/send/68db8c4dc9c9e35d56759e5b [32m201[0m 65.412 ms - 221[0m
+[2025-10-03 14:09:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:09:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:09:21] [32minfo[39m: [0mPOST /api/messages/send/68db8c4dc9c9e35d56759e5b [32m201[0m 65.985 ms - 7[0m
+[2025-10-03 14:09:28] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:09:28] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:09:30] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:09:30] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:09:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:09:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:10:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:10:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:10:31] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 14:10:31] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 14:10:50] [32minfo[39m: [0mPOST /api/messages/send/68db8c4dc9c9e35d56759e5b [32m201[0m 67.533 ms - 220[0m
+[2025-10-03 14:10:55] [32minfo[39m: [0mPOST /api/messages/send/68db8c4dc9c9e35d56759e5b [32m201[0m 46.873 ms - 220[0m
+[2025-10-03 14:20:14] [33mwarn[39m: 404 - API route not found
+[2025-10-03 14:20:14] [32minfo[39m: [0mPOST /api/messages/68db8c4dc9c9e35d56759e5b [33m404[0m 1.148 ms - 65[0m
+[2025-10-03 14:20:22] [32minfo[39m: [0mGET /api/messages/68db8c4dc9c9e35d56759e5b [32m200[0m 56.465 ms - 883[0m
+[2025-10-03 14:20:43] [33mwarn[39m: 404 - API route not found
+[2025-10-03 14:20:43] [32minfo[39m: [0mGET /api/messages/send/68db8c4dc9c9e35d56759e5b [33m404[0m 0.737 ms - 65[0m
+[2025-10-03 14:20:52] [32minfo[39m: [0mPOST /api/messages/send/68db8c4dc9c9e35d56759e5b [32m201[0m 62.154 ms - 217[0m
+[2025-10-03 17:04:11] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:04:11] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:04:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:04:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:04:47] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:04:47] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:04:54] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:04:54] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:05:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:05:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:05:23] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:05:23] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:05:34] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:05:34] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:05:47] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:05:47] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:06:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:06:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:27] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:27] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:42] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:42] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:47] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:47] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:16:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:16:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:17:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:17:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:17:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:17:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:18:07] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:18:07] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:18:17] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:18:17] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:19:41] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:19:41] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:19:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:19:55] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:04] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:04] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:22] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:22] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:20:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:20:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:35] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:35] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:43] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:43] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:21:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:21:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:07] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:07] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:21] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:21] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:25] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:25] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:46] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:46] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:22:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:22:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:21] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:21] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:42] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:42] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:47] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:47] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:55] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:23:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:23:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:24:10] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:24:10] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:24:23] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:24:23] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:24:28] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:24:28] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:24:37] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:24:37] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:24:53] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:24:53] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:26:00] [33mwarn[39m: 404 - API route not found
+[2025-10-03 17:26:00] [32minfo[39m: [0mPOST /api/messages/chats [33m404[0m 5.065 ms - 65[0m
+[2025-10-03 17:26:14] [33mwarn[39m: 404 - API route not found
+[2025-10-03 17:26:14] [32minfo[39m: [0mPOST /api/messages/chats [33m404[0m 1.819 ms - 65[0m
+[2025-10-03 17:26:26] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 228.469 ms - 33[0m
+[2025-10-03 17:26:29] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 113.367 ms - 33[0m
+[2025-10-03 17:32:22] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:32:22] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:32:24] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 45.144 ms - 33[0m
+[2025-10-03 17:33:32] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:33:32] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:34:52] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:34:52] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:34:58] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:34:58] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:35:04] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:35:04] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:35:07] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:35:07] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:35:12] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:35:12] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:35:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:35:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:35:22] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 70.974 ms - 33[0m
+[2025-10-03 17:35:26] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 290.213 ms - 33[0m
+[2025-10-03 17:37:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:37:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:21] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:38:21] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:34] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:38:34] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:39] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:38:39] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:44] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:38:44] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:47] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:38:47] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:38:50] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 223.830 ms - 33[0m
+[2025-10-03 17:39:00] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 163.323 ms - 193[0m
+[2025-10-03 17:39:08] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 142.940 ms - 193[0m
+[2025-10-03 17:39:11] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 122.101 ms - 193[0m
+[2025-10-03 17:39:32] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 172.522 ms - 33[0m
+[2025-10-03 17:42:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:42:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:43:02] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 303.772 ms - 33[0m
+[2025-10-03 17:43:57] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:43:57] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:44:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:44:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:44:05] [32minfo[39m: [0mGET /api/messages/chats [31m500[0m 147.582 ms - 33[0m
+[2025-10-03 17:47:08] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:47:08] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:47:11] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:47:11] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:47:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:47:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:47:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:47:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:47:31] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:47:31] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:47:36] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 404.228 ms - 2[0m
+[2025-10-03 17:48:09] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:48:09] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:48:11] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 116.136 ms - 2[0m
+[2025-10-03 17:49:06] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:49:06] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:49:07] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 97.505 ms - 2[0m
+[2025-10-03 17:54:51] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:54:51] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:54:59] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 623.308 ms - 197[0m
+[2025-10-03 17:55:14] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 376.201 ms - 197[0m
+[2025-10-03 17:55:49] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:55:49] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:55:58] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:55:58] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:56:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:56:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:58:03] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:58:03] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:58:05] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 92.505 ms - 195[0m
+[2025-10-03 17:58:11] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 221.697 ms - 195[0m
+[2025-10-03 17:58:30] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 17:58:30] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 17:58:34] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 421.979 ms - 197[0m
+[2025-10-03 17:58:46] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 475.471 ms - 193[0m
+[2025-10-03 17:59:05] [32minfo[39m: [0mGET /api/messages/chats [32m200[0m 218.611 ms - 197[0m
+[2025-10-03 17:59:13] [32minfo[39m: [0mGET /api/auth/check [32m200[0m 40.915 ms - 193[0m
+[2025-10-03 18:00:14] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:00:14] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:00:37] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:00:37] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:01:00] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:01:00] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:01:33] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:01:33] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:01:40] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:01:40] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:01:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:01:45] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:01:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:01:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 18:02:02] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 18:02:02] [32minfo[39m: ✅ Server running on port 3000
