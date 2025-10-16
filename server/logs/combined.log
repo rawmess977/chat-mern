@@ -736,3 +736,40 @@
 [2025-10-03 18:01:48] [32minfo[39m: ✅ Server running on port 3000
 [2025-10-03 18:02:02] [32minfo[39m: ✅ MongoDB connected successfully
 [2025-10-03 18:02:02] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 21:56:07] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 21:56:07] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 21:56:49] [32minfo[39m: [0mGET / [32m200[0m 4.900 ms - 466[0m
+[2025-10-03 21:56:49] [32minfo[39m: [0mGET /assets/index-D8b4DHJx.css [32m200[0m 1.747 ms - 1385[0m
+[2025-10-03 21:56:49] [32minfo[39m: [0mGET /assets/index-BfkMANgE.js [32m200[0m 2.177 ms - 188056[0m
+[2025-10-03 21:56:49] [32minfo[39m: [0mGET /assets/react-CHdo91hT.svg [32m200[0m 1.002 ms - 4126[0m
+[2025-10-03 21:56:49] [32minfo[39m: [0mGET /vite.svg [32m200[0m 16.350 ms - 1497[0m
+[2025-10-03 21:59:48] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 21:59:48] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:16:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:16:55] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:13] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:13] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:15] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:15] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:19] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:19] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:17:37] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:17:37] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:18:01] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:18:01] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:18:18] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:18:18] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-03 22:18:20] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-03 22:18:20] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-04 02:33:25] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-04 02:33:25] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-16 15:46:48] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
+[2025-10-16 15:51:46] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
+[2025-10-16 15:55:16] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
+[2025-10-16 20:49:26] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-10-16 20:49:26] [32minfo[39m: ✅ Server running on port 3000
+[2025-10-16 20:49:34] [32minfo[39m: [0mGET / [33m404[0m 2.285 ms - 139[0m
