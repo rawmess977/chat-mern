@@ -9,3 +9,6 @@
 [2025-10-01 11:45:50] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
 [2025-10-01 11:46:02] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
 [2025-10-01 11:46:09] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-10-16 15:46:48] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
+[2025-10-16 15:51:46] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
+[2025-10-16 15:55:16] [31merror[39m: ❌ MongoDB connection failed: Error: queryTxt ECONNREFUSED cluster0.9jkhpht.mongodb.net
