@@ -3,6 +3,7 @@ import cookieParser from 'cookie-parser';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import morgan from 'morgan';
+import cors from 'cors';
 
 import { connectDB } from './lib/db.js';
 import { ENV } from './lib/env.js';
@@ -22,6 +23,7 @@ const __dirname = dirname(__filename);
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
+app.use(cors({origin:ENV.CLIENT_URL, credentials: true}))
 
 // HTTP request logging
 app.use(morgan('dev', {
