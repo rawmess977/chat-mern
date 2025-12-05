@@ -849,3 +849,19 @@
 [2025-12-05 12:47:34] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.928 ms - 79[0m
 [2025-12-05 12:47:34] [32minfo[39m: [0mGET /login.png [36m304[0m 0.426 ms - -[0m
 [2025-12-05 12:47:37] [32minfo[39m: [0mGET /signup.png [32m200[0m 8.520 ms - 839135[0m
+[2025-12-05 13:04:21] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-12-05 13:04:21] [32minfo[39m: ✅ Server running on port 5000
+[2025-12-05 13:19:45] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-12-05 13:19:45] [32minfo[39m: ✅ Server running on port 5000
+[2025-12-05 13:19:52] [32minfo[39m: [0mGET / [32m200[0m 13.328 ms - 466[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /assets/index-C7_p75pN.css [32m200[0m 3.066 ms - 49646[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /assets/index-CrmrmBxM.js [32m200[0m 3.195 ms - 338870[0m
+[2025-12-05 13:19:53] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 3.345 ms - 79[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /sounds/mouse-click.mp3 [32m206[0m 11.816 ms - 6503[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /sounds/keystroke2.mp3 [32m206[0m 2.565 ms - 6909[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /sounds/keystroke4.mp3 [36m304[0m 1.042 ms - -[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /sounds/keystroke1.mp3 [32m206[0m 12.363 ms - 6429[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /sounds/keystroke3.mp3 [32m206[0m 11.389 ms - 7341[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /login.png [36m304[0m 0.605 ms - -[0m
+[2025-12-05 13:19:53] [32minfo[39m: [0mGET /vite.svg [0m-[0m - ms - -[0m
