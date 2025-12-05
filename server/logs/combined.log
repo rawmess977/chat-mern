@@ -821,3 +821,31 @@
 [2025-10-19 23:43:07] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
 [2025-10-19 23:43:07] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 2.870 ms - 1216[0m
 [2025-10-19 23:43:07] [32minfo[39m: [0mGET /favicon.ico [33m404[0m 2.881 ms - 150[0m
+[2025-12-02 06:20:52] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-12-05 12:27:41] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-12-05 12:30:30] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-12-05 12:30:49] [31merror[39m: ❌ MongoDB connection failed: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.9jkhpht.mongodb.net
+[2025-12-05 12:32:03] [31merror[39m: ❌ MongoDB connection failed: MongoServerError: bad auth : authentication failed
+[2025-12-05 12:34:34] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-12-05 12:34:34] [32minfo[39m: ✅ Server running on port 5000
+[2025-12-05 12:46:55] [32minfo[39m: ✅ MongoDB connected successfully
+[2025-12-05 12:46:55] [32minfo[39m: ✅ Server running on port 5000
+[2025-12-05 12:47:28] [32minfo[39m: [0mGET / [32m200[0m 3.134 ms - 466[0m
+[2025-12-05 12:47:28] [32minfo[39m: [0mGET /assets/index-C7_p75pN.css [32m200[0m 1.157 ms - 49646[0m
+[2025-12-05 12:47:28] [32minfo[39m: [0mGET /assets/index-CrmrmBxM.js [32m200[0m 1.706 ms - 338870[0m
+[2025-12-05 12:47:29] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 3.038 ms - 79[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /sounds/keystroke1.mp3 [32m206[0m 5.032 ms - 6429[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /sounds/keystroke2.mp3 [32m206[0m 5.598 ms - 6909[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /sounds/keystroke3.mp3 [32m206[0m 5.586 ms - 7341[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /sounds/mouse-click.mp3 [32m206[0m 14.954 ms - 6503[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /sounds/keystroke4.mp3 [32m206[0m 11.748 ms - 6405[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /login.png [32m200[0m 8.788 ms - 1073186[0m
+[2025-12-05 12:47:29] [32minfo[39m: [0mGET /vite.svg [32m200[0m 14.749 ms - 1497[0m
+[2025-12-05 12:47:34] [32minfo[39m: [0mGET / [32m200[0m 0.694 ms - 466[0m
+[2025-12-05 12:47:34] [32minfo[39m: [0mGET /assets/index-CrmrmBxM.js [36m304[0m 0.858 ms - -[0m
+[2025-12-05 12:47:34] [32minfo[39m: [0mGET /assets/index-C7_p75pN.css [36m304[0m 0.468 ms - -[0m
+[2025-12-05 12:47:34] [33mwarn[39m: ⚠️ CLIENT ERROR: Not authorized, no token provided
+[2025-12-05 12:47:34] [32minfo[39m: [0mGET /api/auth/check [33m401[0m 0.928 ms - 79[0m
+[2025-12-05 12:47:34] [32minfo[39m: [0mGET /login.png [36m304[0m 0.426 ms - -[0m
+[2025-12-05 12:47:37] [32minfo[39m: [0mGET /signup.png [32m200[0m 8.520 ms - 839135[0m
