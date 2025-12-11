@@ -1,25 +1,16 @@
 {
   "name": "mern-chat",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=20.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
-    "start": "npm run start --prefix server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rawmess977/chat-mern.git"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rawmess977/chat-mern/issues"
-  },
-  "homepage": "https://github.com/rawmess977/chat-mern#readme"
+  "description": ""
 }

@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 
 const messageSchema = new mongoose.Schema(
   {
@@ -14,14 +14,16 @@ const messageSchema = new mongoose.Schema(
     },
     text: {
       type: String,
+      trim: true,
+      maxlength: 2000,
     },
     image: {
       type: String,
     },
   },
-  {
-    timestamps: true,
-  }
+  { timestamps: true }
 );
+
 const Message = mongoose.model("Message", messageSchema);
-export default Message
+
+export default Message;

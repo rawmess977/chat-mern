@@ -1,26 +1,18 @@
 import { resendClient, sender } from "../lib/resend.js";
-import { createWelcomeEmailTemplate } from "./emailTemplates.js";
+import { createWelcomeEmailTemplate } from "../emails/emailTemplates.js";
 
-export const sendWelcomeMail = async(email, name, clientURL)=>{
-
-    if (!sender?.email || !sender?.name ){
-      throw new Error("Email sender configuration missing")
-    }
-
-    if(!email) throw new Error("Recipient email is required")
-    if(!clientURL) throw new Error("ClientURl is required is required")
-
-    const { data, error } = await resendClient.emails.send({
-    from: `${sender.name } <${sender.email}>`,
+export const sendWelcomeEmail = async (email, name, clientURL) => {
+  const { data, error } = await resendClient.emails.send({
+    from: `${sender.name} <${sender.email}>`,
     to: email,
-    subject: `Welcome to chat-mern ${name}`,
-    html: `${createWelcomeEmailTemplate(sender.name, clientURL)}`,
-    
+    subject: "Welcome to Chatify!",
+    html: createWelcomeEmailTemplate(name, clientURL),
   });
 
-   if (error) {
-    return console.error({ error });
+  if (error) {
+    console.error("Error sending welcome email:", error);
+    throw new Error("Failed to send welcome email");
   }
 
-  console.log({ data });
-}
+  console.log("Welcome Email sent successfully", data);
+};
